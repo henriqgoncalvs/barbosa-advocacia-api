@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.hero",
+      "required": true
+    },
+    "servicos_previdencia": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.servicos-previdencia"
+    },
+    "quem_somos": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.quem-somos"
+    },
+    "cta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.cta"
+    },
+    "blog_section": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.blog-section"
+    }
+  }
+}

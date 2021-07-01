@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_pages",
+  "info": {
+    "name": "Blog_page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title_most_read": {
+      "type": "string",
+      "required": true,
+      "default": "Artigos mais lidos"
+    },
+    "description_most_read": {
+      "type": "string",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan aliquet orci.",
+      "required": true
+    },
+    "title_all_articles": {
+      "type": "string",
+      "default": "Todos os artigos",
+      "required": true
+    }
+  }
+}

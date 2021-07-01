@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_blog_sections",
+  "info": {
+    "name": "blog_section",
+    "icon": "newspaper",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Acompanhe nosso blog"
+    },
+    "artigos": {
+      "collection": "artigo"
+    }
+  }
+}

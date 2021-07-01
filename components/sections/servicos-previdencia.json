@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_servicos_previdencias",
+  "info": {
+    "name": "servicos_previdencia",
+    "icon": "folder",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Conheça nossos serviços de previdência."
+    },
+    "description": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "required": false
+    },
+    "servicos": {
+      "collection": "servico"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_sections_quem_somos",
+  "info": {
+    "name": "quem_somos",
+    "icon": "user"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Quem somos"
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "Ulysses Barbosa - Advogado"
+    },
+    "description": {
+      "type": "text",
+      "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque massa nibh, pulvinar vitae aliquet nec, accumsan aliquet orci.",
+      "required": true
+    },
+    "presentation_video_url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
