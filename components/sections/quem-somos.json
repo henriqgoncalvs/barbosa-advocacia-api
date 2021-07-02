@@ -2,7 +2,8 @@
   "collectionName": "components_sections_quem_somos",
   "info": {
     "name": "quem_somos",
-    "icon": "user"
+    "icon": "user",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -24,6 +25,16 @@
     "presentation_video_url": {
       "type": "string",
       "required": true
+    },
+    "profile_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true,
+      "pluginOptions": {}
     }
   }
 }

@@ -1,0 +1,29 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adress": {
+      "type": "string",
+      "default": "Rua do Endereço, 123. Bairro do Endereço, Petrolina. 123456-789",
+      "required": false
+    },
+    "whatsapp": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    }
+  }
+}
